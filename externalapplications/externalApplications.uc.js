@@ -16,12 +16,14 @@ var gExternalApplications = {
   insertafter: 'menubar-items',
 
   apps: [
-    {name: 'Notepad', path: 'C:\\WINDOWS\\system32\\notepad.exe'},
-    {name: 'Notepad++', path: 'C:\\Program Files (x86)\\Notepad++\\notepad++.exe'},
-    {name: 'Calculator', path: '.\\.\\..\\..\\WINDOWS\\system32\\calc.exe'},
-    {name: 'Command Prompt', path: 'C:\\WINDOWS\\system32\\cmd.exe'},
-    {name: 'separator'},
-    {name: 'Windows Explorer', path: 'C:\\Windows\\explorer.exe'},
+    {name: 'Explorer', path: 'C:\\Windows\\explorer.exe'},
+    {name: 'Calculator', path: 'C:\\Windows\\System32\\calc.exe'},
+    {name: 'VLC', path: 'C:\\Program Files\\VideoLAN\\VLC\\vlc.exe'},
+    {name: 'Notepad', path: 'C:\\Windows\\System32\\notepad.exe'},
+    {name: 'Heart', path: 'C:\\Program Files (x86)\\Microsoft Carioca\\MSCarioca.exe'},
+    {name: 'Wifi File Transfer', path: 'F:\\SAVE\\Programmes\\WifiFileTransferPC.jar'},
+    {name: 'Task Manager', path: 'C:\\Windows\\System32\\Taskmgr.exe'},
+    {name: 'Screen Capture', path: 'C:\\Windows\\System32\\SnippingTool.exe'},
   ],
 
   init: function() {
