@@ -7,15 +7,15 @@
 
 	try {
                 CustomizableUI.createWidget({
-                        id: 'Desktop Files',
+                        id: 'DesktopFiles',
                         type: 'custom',
                         defaultArea: CustomizableUI.AREA_NAVBAR,
                         onBuild: function(aDocument) {         
                                 var toolbaritem = aDocument.createElementNS('http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul', 'toolbarbutton');
                                 var props = {
-                                        id: 'Desktop Files',
+                                        id: 'DesktopFiles',
                                         class: 'toolbarbutton-1 chromeclass-toolbar-additional',
-                                        label: 'Desktop Files',
+                                        label: 'DesktopFiles',
                                         tooltiptext: 'Desktop Files',
                                         style: 'list-style-image: url(file:///C:/Users/Fabrice%20Copparoni/AppData/Roaming/Mozilla/Firefox/Profiles/drhot95b.FX57+/chrome/image/Ic%C3%B4nes/CB/128.png)',
 				        onclick: 'if (event.button == 0) { \
