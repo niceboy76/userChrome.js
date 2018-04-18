@@ -17,7 +17,7 @@ var gExternalApplications = {
 
   apps: [
     {name: 'Explorer', path: 'C:\\Windows\\explorer.exe'},
-    {name: 'Calculator', path: 'C:\\Windows\\System32\\calc.exe'},
+    {name: 'Calculator', path: 'C:\\Windows\\System32\\calc.exe', style: 'list-style-image: url(file:///C:/Users/Fabrice%20Copparoni/AppData/Roaming/Mozilla/Firefox/Profiles/drhot95b.FX57+/chrome/image/Ic%C3%B4nes/CB/123.png)'},
     {name: 'VLC', path: 'C:\\Program Files\\VideoLAN\\VLC\\vlc.exe'},
     {name: 'Notepad', path: 'C:\\Windows\\System32\\notepad.exe'},
     {name: 'Heart', path: 'C:\\Program Files (x86)\\Microsoft Carioca\\MSCarioca.exe'},
